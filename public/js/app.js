@@ -14,7 +14,7 @@ weatherForm.addEventListener('submit', (e) => {
     messageTwo.textContent = ''
     const location = search.value
     if (location) {
-        fetch(`http://127.0.0.1:3000/weather?location=${encodeURIComponent(location)}`).then((response) => {
+        fetch(`/weather?location=${encodeURIComponent(location)}`).then((response) => {
             response.json().then(({error, location, forecastData} = {}) => {
                 if (error) {
                     messageOne.textContent = error
