@@ -9,7 +9,7 @@ Then just run the command:
 
 ```npm run dev```
 
-Now, fire up you favorite browser and go to:
+Now, fire up your favorite browser and go to:
 
 ```127.0.0.1:3000```
 
